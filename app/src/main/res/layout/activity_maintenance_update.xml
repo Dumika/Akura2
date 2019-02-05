@@ -74,7 +74,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
 
-        android:backgroundTint="@color/green"
+        android:background="@drawable/button"
         android:text="Save"
         android:textColor="@color/black"
         android:textSize="20sp"

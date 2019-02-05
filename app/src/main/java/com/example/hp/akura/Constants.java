@@ -21,4 +21,7 @@ public class Constants {
     public static final String MAIN_DELETE_URL = ROOT_URL + "/MainDelete.php";
     public static final String MAIN_UPDATE_URL = ROOT_URL + "/MainUpdate.php";
 
+    public static final String GEN_RES_URL = ROOT_URL + "/GenRes.php";
+    public static final String AUTH_RES_URL = ROOT_URL + "/AuthRes.php";
+
 }

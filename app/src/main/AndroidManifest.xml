@@ -14,7 +14,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".MaintenanceUpdate"></activity>
+        <activity android:name=".AuthRes"></activity>
+        <activity android:name=".GenRes" />
+        <activity android:name=".MaintenanceUpdate" />
         <activity android:name=".MaintenanceListing" />
         <activity android:name=".SoftUpdate" />
         <activity android:name=".SoftListing" />
@@ -27,23 +29,22 @@
         <activity android:name=".ItemUpdate" />
         <activity android:name=".HardAsset" />
         <activity android:name=".Reservation" />
-        <activity android:name=".Home">
+        <activity android:name=".Home" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Logo">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
-        <activity android:name=".Logo" />
+        <activity android:name=".Login" />
+        <activity android:name=".LogOrReg" />
+        <activity android:name=".Register" />
 
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
-
-        <activity android:name=".Login" />
-        <activity android:name=".LogOrReg" />
-        <activity android:name=".Register" />
     </application>
 
 </manifest>

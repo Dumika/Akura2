@@ -10,13 +10,6 @@
     android:paddingRight="30dp"
     android:background="@drawable/background">
 
-    <!--<ImageView-->
-        <!--android:id="@+id/logo"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="125dp"-->
-        <!--android:layout_marginBottom="40dp"-->
-        <!--android:src="@drawable/logo1" />-->
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -76,28 +69,16 @@
     <Button
         android:id="@+id/buttonAdd"
         android:layout_width="150dp"
-        android:layout_height="60dp"
+        android:layout_height="50dp"
         android:layout_below="@+id/editTextSupply"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
 
-        android:backgroundTint="@color/green"
+        android:background="@drawable/button"
         android:text="Add"
         android:textColor="@color/black"
         android:textSize="20sp"
         tools:targetApi="lollipop" />
 
-    <!--<Button-->
-        <!--android:id="@+id/buttonView"-->
-        <!--android:layout_width="150dp"-->
-        <!--android:layout_height="60dp"-->
-        <!--android:layout_below="@+id/buttonAdd"-->
-        <!--android:layout_centerHorizontal="true"-->
-        <!--android:layout_marginTop="20dp"-->
-
-        <!--android:backgroundTint="@color/yellow"-->
-        <!--android:text="View"-->
-        <!--android:textColor="@color/black"-->
-        <!--android:textSize="20sp" />-->
 
 </RelativeLayout>

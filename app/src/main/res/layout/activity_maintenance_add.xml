@@ -69,7 +69,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="40dp"
 
-        android:backgroundTint="@color/green"
+        android:background="@drawable/button"
         android:text="Add"
         android:textColor="@color/black"
         android:textSize="20sp" />

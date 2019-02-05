@@ -13,4 +13,7 @@
     <color name="orange">#e38b27</color>
     <color name="red">#e62323</color>
     <color name="black">#000000</color>
+    <color name="brown">#795548</color>
+    <color name="brown1">#5D4037</color>
+    <color name="darkgray">#6c6c6c</color>
 </resources>

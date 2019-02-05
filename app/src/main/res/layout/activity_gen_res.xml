@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ItemUpdate"
+    tools:context=".GenRes"
     android:paddingLeft="30dp"
     android:paddingTop="40dp"
     android:paddingRight="30dp"
@@ -13,73 +14,80 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hard Asset"
+        android:text="General Reservation"
         android:textSize="40sp"
         android:textColor="@color/white"/>
 
 
     <EditText
-        android:id="@+id/editTextSerialNo"
+        android:id="@+id/editTextName"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="150dp"
-        android:hint="Serial No"
+        android:layout_marginTop="130dp"
+        android:hint="Name"
         android:textColor="@color/black" />
 
 
     <EditText
-        android:id="@+id/editTextType"
+        android:id="@+id/editTextAType"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/editTextSerialNo"
-        android:hint="Type"
+        android:layout_below="@+id/editTextName"
+        android:hint="Asset Type"
         android:textColor="@color/black" />
 
     <EditText
-        android:id="@+id/editTextSection"
+        android:id="@+id/editTextStart"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/editTextType"
-        android:hint="Section"
+        android:layout_below="@+id/editTextAType"
+        android:hint="Start Date"
         android:textColor="@color/black" />
     <EditText
-        android:id="@+id/editTextPerson"
+        android:id="@+id/editTextEnd"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/editTextSection"
-        android:hint="Person Incharge"
+        android:layout_below="@+id/editTextStart"
+        android:hint="End Date"
         android:textColor="@color/black" />
 
     <EditText
         android:id="@+id/editTextQuantity"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/editTextPerson"
+        android:layout_below="@+id/editTextEnd"
         android:hint="Quantity"
         android:textColor="@color/black" />
 
+
     <EditText
-        android:id="@+id/editTextSupply"
+        android:id="@+id/editTextGrade"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/editTextQuantity"
-        android:hint="Supplier"
+        android:hint="Grade"
+        android:textColor="@color/black" />
+    <EditText
+        android:id="@+id/editTextPeriod"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextGrade"
+        android:hint="Period"
         android:textColor="@color/black" />
 
     <Button
         android:id="@+id/buttonAdd"
         android:layout_width="150dp"
-        android:layout_height="60dp"
-        android:layout_below="@+id/editTextSupply"
+        android:layout_height="50dp"
+        android:layout_below="@+id/editTextPeriod"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="20dp"
 
         android:background="@drawable/button"
-        android:text="Save"
+        android:text="Submit"
         android:textColor="@color/black"
         android:textSize="20sp"
         tools:targetApi="lollipop" />
-
 
 
 </RelativeLayout>

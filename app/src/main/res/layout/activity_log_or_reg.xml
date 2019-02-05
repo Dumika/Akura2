@@ -10,13 +10,6 @@
     android:paddingRight="30dp"
     tools:context=".Login">
 
-    <!--<ImageView-->
-        <!--android:id="@+id/logo"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="125dp"-->
-        <!--android:layout_marginBottom="40dp"-->
-        <!--android:src="@drawable/bus1" />-->
-
     <ImageView
         android:id="@+id/logo"
         android:layout_width="match_parent"
@@ -39,11 +32,14 @@
         android:layout_height="60dp"
         android:layout_below="@+id/logo"
         android:layout_centerHorizontal="true"
+        android:background="@drawable/button"
         android:layout_marginTop="60dp"
-        android:backgroundTint="@color/green"
         android:text="Login"
+
+
         android:textSize="19sp"
-         />
+        />
+
 
     <Button
         android:id="@+id/btn_reg"
@@ -52,9 +48,9 @@
         android:layout_below="@+id/btn_login"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="23dp"
-        android:backgroundTint="@color/green"
+        android:background="@drawable/button"
         android:text="register now"
         android:textSize="19sp" />
-
+    <!--android:backgroundTint="@color/green"-->
 
 </RelativeLayout>
